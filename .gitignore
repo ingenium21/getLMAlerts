@@ -1,3 +1,7 @@
+#alerts file
+alerts.json
+
+
 # env file
 .env
 
