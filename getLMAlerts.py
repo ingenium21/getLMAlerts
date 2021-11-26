@@ -8,6 +8,8 @@ import json
 import re
 from dotenv import load_dotenv
 
+load_dotenv()
+
 def get_alerts():
     """gets the alerts and returns an array of them """
     alerts = api_instance.get_alert_list(size=3000)
